@@ -11,45 +11,41 @@ services:
     autoDeploy: true
 
     envVars:
-      API_ID: 
-        value: 29448785
-      API_HASH: 
-        value: 599574f6aff0a09ebb76305b58e7e9c2
-      API_KEY:
+      - key: API_ID
+        value: "21123641"
+      - key: API_HASH
+        value: "f9f5974d3c0c050964c743c6999ec4e6"
+      - key: BOT_TOKEN
+        value: "8055188759:AAHbsMNnW0Tf2nrgHrqzevm9MOR2TifUmV0"
+      - key: OWNER_ID
+        value: "5090115018"
+      - key: OWNER_USERNAME
+        value: "@Mr_0_Kakashi"
+      - key: BOT_USERNAME
+        value: "@Darkmension_music_bot"
+      - key: MONGO_DB_URI
+        value: "mongodb://atlas-sql-690b4fffe997b77184cd8d85-bijdez.a.query.mongodb.net/sample_mflix?ssl=true&authSource=admin"
+      - key: LOG_GROUP_ID
+        value: "5090115018"
+      - key: GIT_TOKEN
         sync: false
-      BOT_TOKEN:
+      - key: SUPPORT_CHANNEL
         sync: false
-      MONGO_DB_URI: 
-        value: mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION
-      OWNER_ID:
-        value: 7574330905
-      OWNER_USERNAME:
-        value: WTF_WhyMeeh
-      BOT_USERNAME:
-        value: ShrutixMusicBot
-      UPSTREAM_REPO:
-        value: https://github.com/NoxxOP/ShrutiMusic
-      STRING_SESSION:
+      - key: SUPPORT_GROUP
         sync: false
-      GIT_TOKEN:
+      - key: INSTAGRAM
         sync: false
-      HEROKU_API_KEY:
+      - key: YOUTUBE
         sync: false
-      HEROKU_APP_NAME:
+      - key: GITHUB
         sync: false
-      LOG_GROUP_ID:
-        value: -1002321189618
-      SUPPORT_GROUP:
-        value: https://t.me/ShrutiBotsupport
-      SUPPORT_CHANNEL:
-        value: https://t.me/ShrutiBots
-      INSTAGRAM:
-        value: https://instagram.com/yaduwanshi_nand
-      YOUTUBE:
-        value: https://youtube.com/@NandEditz
-      GITHUB:
-        value: https://github.com/NoxxOP
-      DONATE:
-        value: https://t.me/ShrutiBots/91
-      START_IMG_URL:
+      - key: DONATE
+        sync: false
+      - key: START_IMG_URL
+        sync: false
+      - key: PING_IMG_URL
+        sync: false
+      - key: STRING_SESSION
+        sync: false
+      - key: API_KEY
         sync: false
